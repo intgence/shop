@@ -1,0 +1,45 @@
+body{
+  font-size: 12px;
+
+}
+
+.form-control {
+  border-radius: 20px;
+  border: 10px gray;
+}
+
+.navbar {
+  border-radius: 20px;
+}
+
+.navbar-brand{
+    font-size: 12px;
+}
+
+.items {
+  width: 75%;
+  justify-content: left;
+  gap: 2px;
+}
+
+.item {
+    /* flex: 2 1 33%; */
+  flex-basis: 25%;
+  text-align: center;
+}
+
+.list_of_items {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row;
+  -webkit-flex-flow: row;
+  /* justify-content: space-around;
+  justify-content: space-between;
+  justify-content: space-evenly; */
+  gap: 8px;
+}
+
+
